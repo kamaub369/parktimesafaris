@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.top-bar {
+  background-color: #1b5e20;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.top-bar img {
+  width: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  list-style: none;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 20px;
+}
+
+.dropdown-menu li a {
+  color: #1b5e20;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.travel-section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.travel-box {
+  background: #f9f9f9;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-left: 5px solid #1b5e20;
+  border-radius: 5px;
+}
+
+.travel-box h2 {
+  color: #1b5e20;
+}
+
+footer {
+  background-color: #1b5e20;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.call-btn, .whatsapp-btn {
+  background-color: #1b5e20;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    color: #1b5e20;
+  }
+}

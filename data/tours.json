@@ -1,0 +1,26 @@
+[
+  {
+    "title": "3-Day Maasai Mara Safari",
+    "description": "Experience the Great Wildebeest Migration and Big 5 sightings in Maasai Mara National Reserve.",
+    "price": "KES 45,000",
+    "image": "img/maasai.PNG"
+  },
+  {
+    "title": "5-Day Amboseli & Tsavo Safari",
+    "description": "Explore Mount Kilimanjaro's backdrop in Amboseli and the red elephants of Tsavo East.",
+    "price": "KES 75,000",
+    "image": "img/tsavo.PNG"
+  },
+  {
+    "title": "4-Day Lake Nakuru & Naivasha Safari",
+    "description": "See flamingos, rhinos, and enjoy a boat ride on Lake Naivasha.",
+    "price": "KES 52,000",
+    "image": "img/nakuru.PNG"
+  },
+  {
+    "title": "7-Day Kenya & Tanzania Combo",
+    "description": "Traverse Maasai Mara and Serengeti for the ultimate East African safari experience.",
+    "price": "KES 130,000",
+    "image": "img/combo.PNG"
+  }
+]
